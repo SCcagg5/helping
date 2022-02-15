@@ -18,6 +18,14 @@ Multipliez les degrés de séparation de la longitude et de la latitude par 111 
 
 Considérez la ligne entre les deux points comme l'hypoténuse d'un triangle rectangle dont la base "x" est égale à la latitude et la hauteur "y" est égale à la longitude qui les sépare. Calculez la distance qui les sépare (d) en utilisant le théorème de Pythagore :
 
-````
+```
 d^2=x^2+y^2
 ```
+
+But, obtenir un rendu de chaque parcelle au format: {pos: { lat: 45.565660999999984, lng: 2.888144000000019}, dimensions: [[2, 90], [2, 90], [2, 90], [2, 90]]},
+
+dimension: 2, 90 <- 2 metres a 90 degrés
+
+cela fait donc ici un carre de 2 metres par 2 metres
+la somme des 2emes element de la liste doit faire 360 obligatoirement
+
